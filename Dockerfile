@@ -140,7 +140,7 @@ RUN chmod -R 777 /usr/local/lib/R/doc/html/packages.html
 
 # Copy startup script
 RUN mkdir /startup
-COPY Container/startup.sh /startup/startup.sh
+COPY startup.sh /startup/startup.sh
 RUN chmod 700 /startup/startup.sh
 
 CMD ["/startup/startup.sh"]
