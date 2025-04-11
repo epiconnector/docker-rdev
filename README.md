@@ -50,8 +50,8 @@ To upload to docker hub:
 
 ```
 echo ${CVERSION}
-docker tag epiconnector-rdev epiconnector/rdev:${CVERSION}
-docker push epiconnector/rdev:${CVERSION}
+docker tag epiconnector-rdev deepayansarkar/rdev:${CVERSION}
+docker push deepayansarkar/rdev:${CVERSION}
 ```
 
 
